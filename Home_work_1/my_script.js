@@ -9,7 +9,8 @@ function task1 (){
 	d = prompt("write coordinate y2");
 	e = (b - d) / (a - c);
 	f = d - (e * c);
-	console.log("y " + "= " + e + "x " + "+ " + f); 
+	console.log("y " + "= " + e + "x " + "+ " + f);
+	console.log("-=The End=-");
 }
 // Задание № 2
 function task2 (){
@@ -22,6 +23,7 @@ function task2 (){
 	a = b;
 	b = c;
 	console.log("a = " + a + " b= " + b);
+	console.log("-=The End=-");
 }
 // Задание № 3
 function task3 (){
@@ -29,28 +31,25 @@ function task3 (){
 	var admin, name = "Василий";
 	admin = name;
 	console.log(admin);
+	console.log("-=The End=-");
 }
 // Задание № 4
 function task4 (){
 	alert("Задание № 4");
 	var a, b, c;
-	a = prompt("write second name");
+	a = prompt("write first name");
 	b = prompt("write sure name");
 	c = prompt("write you age");
-	console.log("you second name " + a + " " + "you sure name " + b + " " + "you age " + c);
-	console.log(a);
+	console.log("you first name " + a + " " + "you sure name " + b + " " + "you age " + c);
+	console.log("-=The End=-");
 }
 // Задание № 5
 function task5 (){
 	alert("Задание № 5");
 	var a, b;
 	a = prompt("write you age");
-	b = prompt("you age " + a + "?");
-	if (b === a) {
-		alert("true");
-	}
-	else {
-		alert("false");
-	}
+	b =confirm("you age " + a + "?");
+	alert(b);
+	console.log("-=The End=-");
 }
 
